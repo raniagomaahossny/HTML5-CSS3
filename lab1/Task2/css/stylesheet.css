@@ -1,0 +1,37 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: rgb(224, 194, 154);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 45em;
+  top: 10em;
+}
+form label,
+input {
+  width: 30em;
+}
+form label {
+  font-style: sans-serif;
+  font-size: 200%;
+}
+form input {
+  height: 4em;
+  border: 3px solid rgb(10, 3, 3);
+}
+#dollar {
+  position: relative;
+  top: 32.52em;
+  left: 47.7em;
+}
+#submit {
+  background-color: rgb(47, 89, 151);
+  border-radius: 15px;
+  padding: 15px;
+  position: relative;
+  top: 1em;
+  border: 0px solid rgb(15, 11, 11);
+}
